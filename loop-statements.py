@@ -38,6 +38,6 @@ mood = ["Happy", "Sad", "Energetic", "Calm", "Tired", "Angry", "Joyful"]
 time = ["morning", "afternoon", "evening"]
 
 for i in range(len(week)):
-    for i in range(len(time)):
+    for j in range(len(time)):
         random_mood = random.choice(mood)
-        print(f"On {week[i]} {time[i]} you were {random_mood}")
+        print(f"On {week[i]} {time[j]} you were {random_mood}")
