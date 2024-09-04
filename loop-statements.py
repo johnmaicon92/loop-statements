@@ -10,7 +10,7 @@ Example Outcome: An example output could be "On Wednesday, you were feeling happ
 import random
 
 week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-mood = ["Happy", "Sad", "Energetic", "Calm"]
+mood = ["Happy", "Sad", "Energetic", "Calm", "Tired", "Angry", "Joyful"]
 
 for i in range(len(week)): 
     random_mood = random.choice(mood)
